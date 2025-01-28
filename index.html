@@ -11,14 +11,19 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- googole font  -->
    <!-- tailwind -->
-   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+   <script src="https://unpkg.com/@tailwindcss/browser@4">
+    font-family{
+    manrope:["Manrope", 'sans-serif'];
+
+    }
+   </script>
    <style type="text/tailwindcss">
     @theme {
       --color-clifford: #da373d;
     }
   </style>
 </head>
-<body>
+<body class="font-manrope">
   <!-- container -->
    <main class="max-w-screen-xl mx-auto px-16 lg:px-20">
     
@@ -47,7 +52,7 @@
    </div>
 </header>
 <section class="py-8 lg-py-24">
-<div class="text-center mg-8">
+<div class="text-center m-8">
   <h1 class="text-3xl md:text-4xl font-bold mb-5">Our Featured Products</h1>
   <p class="text-gray-700 mx-auto max-w-xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
 </div>
@@ -153,6 +158,41 @@
     <small class="font-bold text-gray-500">Businessman</small>
   </div>
 </div>
+</div>
+</div>
+</section>
+<section class="py-8 lg-py-24 mb-12">
+<div class="text-center m-8">
+<h1 class="text-black text-6xl font-bold p-4 md:p:3 lg:p-8">News & Events</h1>
+<p class="text-gray-400 w-full lg:w-230 pt-4 pb-4 ml-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+</div> 
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+<div class="bg-gradient-to-r from-indigo-200 rounded-xl border">
+  <div class="ml-4"><img src="images/news-1.png" alt=""></div>
+  <div class="ml-4">
+    <small class="p-3 md:p-3 text-gray-500">jun 28,2025</small>
+    <h1 class="font-bold pt-4 pb-4">Collecting 8 points for discount</h1>
+    <p class="text-gray-500">There are many variations of passages of <br>Lorem Ipsum available.</p>
+    <button class="bg-linear-to-r/srgb from-indigo-500 to-teal-400 px-6 py-3 font-bold mt-4 mb-4 rounded-xl">Learn More</button>
+  </div>
+</div>
+<div class="bg-gradient-to-r from-indigo-200 rounded-xl border">
+  <div class="ml-4"><img src="images/news-2.png" alt=""></div>
+  <div class="ml-4">
+    <small class="p-3 md:p-3 text-gray-500">jun 28,2025</small>
+    <h1 class="font-bold pt-4 pb-4">Collecting 8 points for discount</h1>
+    <p class="text-gray-500">There are many variations of passages of <br>Lorem Ipsum available.</p>
+    <button class="bg-linear-to-r/srgb from-indigo-500 to-teal-400 px-6 py-3 font-bold mt-4 mb-4 rounded-xl">Learn More</button>
+  </div>
+</div>
+<div class="bg-gradient-to-r from-indigo-200 rounded-xl border">
+  <div class="ml-4"><img src="images/news-3.png" alt=""></div>
+  <div class="ml-4">
+    <small class="p-3 md:p-3 text-gray-500">jun 28,2025</small>
+    <h1 class="font-bold pt-4 pb-4">Collecting 8 points for discount</h1>
+    <p class="text-gray-500">There are many variations of passages of <br>Lorem Ipsum available.</p>
+    <button class="bg-linear-to-r/srgb from-indigo-500 to-teal-400 px-6 py-3 font-bold mt-4 mb-4 rounded-xl">Learn More</button>
+  </div>
 </div>
 </div>
 </section>
